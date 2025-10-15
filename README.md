@@ -1,4 +1,4 @@
-# PCAPViz — © 2025 JDRockfeller (Off-set)
+# PCAPViz
 
 Advanced PCAP parsing and visualization: filters, metrics, graphs, CSV and GraphML export, and a Streamlit web UI.
 
