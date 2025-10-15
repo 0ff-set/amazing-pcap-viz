@@ -1,4 +1,4 @@
-# PCAPViz — © 2025 JDRockfeller (Off-set)
+# PCAPViz
 
 Инструмент для продвинутого парсинга и визуализации PCAP: фильтры, метрики, графы, экспорт.
 
@@ -41,5 +41,4 @@ python -m src.pcapviz.cli sample.pcap \
 - `src/pcapviz/metrics.py`: топ говорящие, протоколы, пропускная способность, топ порты, матрица разговоров.
 - `src/pcapviz/graph.py`: граф с доминирующим протоколом на ребре, экспорт GraphML, HTML с футером «© 2025 JDRockfeller (Off-set)».
 
-## Кредиты
 © 2025 JDRockfeller (Off-set)
