@@ -27,7 +27,7 @@ streamlit run app_streamlit.py
 
 Upload `.pcap`/`.pcapng`, apply filters (IPs, ports, protocols, time), explore metrics and graphs, and download CSV/GraphML.
 
-## CLI — © 2025 JDRockfeller (Off-set)
+## CLI
 
 ```bash
 python -m src.pcapviz.cli sample.pcap \
@@ -48,7 +48,6 @@ Outputs: `packets.csv`, `flows.csv`, `top_talkers.csv`, `protocols.csv`, `throug
 ## Modules
 - `src/pcapviz/parser.py`: parsing with filters; extra fields `ip_version`, `ttl/hlim`, `tcp_flags`
 - `src/pcapviz/metrics.py`: top talkers, protocols, throughput, top ports, conversation matrix
-- `src/pcapviz/graph.py`: graph with dominant protocol coloring, GraphML export, HTML footer “© 2025 JDRockfeller (Off-set)”
-
+- `src/pcapviz/graph.py`: graph with dominant protocol coloring, GraphML export, HTML footer
 ## Credits
 © 2025 JDRockfeller (Off-set)
